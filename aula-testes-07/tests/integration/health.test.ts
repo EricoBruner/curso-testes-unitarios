@@ -9,5 +9,5 @@ describe("Health API Tests", () => {
     const { status, text } = await api.get("/health");
     expect(status).toBe(200);
     expect(text).toBe(text);
-  });
-});
+  })
+})
